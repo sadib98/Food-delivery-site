@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+
+@import url('style-pages.css');
+
+body{
+	padding:0px; margin:0px;
+	border:0px;
+	background-color:#f7f7f7; 
+}
+a{
+	text-decoration: none;
+	outline:none;
+	color:#333;
+}
+
+
+/*
+		-- HEAD --
+*/
+.header-block{
+	float:left;
+	width:100%;				height:110px;
+	border:solid 0px #2e2e2e;
+	background-color: #2e2e2e;
+}
+
+
+.title-block{
+	float:left;
+	width:200px;			height:70px;
+	margin-left: 50px;		margin-top:20px;
+	border:solid 0px red;
+	color:#fff;				line-height: 60px;
+	font-size: 40px;		
+	font-family: 'Lobster', cursive;
+}
+.title-block a{
+	color:#fff;	
+	outline: none;
+}
+
+
+.menu-block{
+	float:right;
+	width:415px;			height:70px;
+	margin-right: 50px;		margin-top: 20px;
+	border:solid 0px #fff;
+}
+
+.main-menu {
+	padding:0px;
+	list-style-type:none;
+	display:inline-block;
+}
+.main-menu-item{
+	float:left;				cursor:pointer;
+	width:170px;			height:40px;
+	margin-left: 20px;	
+	line-height:40px;
+	border:solid 1px #fff;
+	color:#fff;
+	text-align:center;
+
+}
+.submenu{
+	position: relative;
+	list-style-type:none;
+	background-color:#6e1919;
+	list-style-type:none;
+	margin-left:0px;
+	width:130px;
+	text-align:center;
+
+}
+.submenu li{
+	float:left;
+	width:170px;			height:40px;
+	margin-left:-41px;
+	line-height:40px;
+	background-color:#393131;
+	border:solid 1px #393131;
+	color:#fff;
+	text-align:center;
+}
+
+.menu-block .submenu{
+	display: none;
+}
+.menu-block .main-menu li:hover .submenu {
+	display:block;
+}
+.main-menu li:hover{
+	border:solid 1px #423d3d;
+}
+.submenu li:hover{
+	background-color:#423d3d;
+}
+/*
+	-- Body --
+*/
+.body-block{
+	float:left;
+	width:100%;				height:auto; min-height: 200px;
+	border:solid 0px #2e2e2e;
+	
+	color:#333;				text-align: center;
+}
+
+.slogan-block{
+	float:left;
+	border:solid 0px #333;
+	width:30%;			height:500px;
+	line-height: 125px;
+	margin-left:40px;		margin-top: 50px;
+	color:black;			text-align: left;
+	font-family: 'Kaushan Script', cursive;
+	font-size:60px;
+}
+.banner-block{
+	float:left;
+	border:solid 0px #333;
+	width:60%;			height:500px;
+	margin-top: 50px;
+}
+
+
+/*
+	-- Footer --
+*/
+
+.footer-block{
+	float: left;
+	width:100%;				height:60px;
+	border:solid 0px #2e2e2e;
+	background-color: #2e2e2e;
+	line-height: 60px;
+	color:#fff;				text-align: center;
+}

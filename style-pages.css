@@ -1,0 +1,47 @@
+.form-block{
+	margin-left: auto; margin-right: auto;
+	margin-bottom: 20px;
+	width:500px;			height:auto; min-height: 450px;
+	border:solid 0px #333;	text-align:center;
+}
+
+.form-title {
+	margin-left: auto; margin-right: auto;
+	margin-top: 20px;
+	width:500px;			height:auto;
+	line-height: 40px;
+	border:solid 0px #333;
+	font-size: 40px;		text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.form-subtitle{
+	font-size: 25px;
+	font-family: 'Poiret One', cursive;
+}
+
+.form{
+	margin-left: auto; margin-right: auto;
+	width:500px;				height:auto;
+	text-align:center;
+}
+.field{
+	width:300px;			height:30px;
+	margin-bottom: 3px;
+}
+
+.button{
+	cursor:pointer;
+	border:solid 1px #a8b1bd;
+	background-color:#a8b1bd;
+	width: 155px;
+	height: 40px;
+	border-radius: 5px;
+	line-height: 40px; 
+	color:#333;
+	font-size:18px;
+	text-transform: uppercase;
+}
+.button:hover{
+	color:#ededed;
+	background-color:#6f7c8c;
+}

@@ -1,0 +1,418 @@
+/*
+	--- Restaurant List Page ---
+*/
+
+
+/* --- Bloc de listes des restaurants --- */ 
+.list-restaurant-block{
+	float:left;
+	margin-left: 10%;	
+	width:80%;			height:auto;
+	border:solid 0px red;
+	text-align: left ;
+}
+.list-restaurant-title{
+	float:left;
+	margin-left: 5%;
+	width: 35%; 		height:90px;
+	line-height: 80px;
+	color:#333;			font-size: 14px;
+	border:solid 0px #333;
+	text-align: left;
+}
+.recherche-restaurant-block{
+	float: left;
+	width:59.8%;			height:90px;
+	line-height: 90px;
+	text-align:right;
+	border:solid 0px #333;
+}.recherche-restaurant-block table{
+	float:right;
+}
+.recherche-restaurant-field{
+	width:280px;			height:20px;
+	padding:1%;
+}
+.recherche-restaurant-button{
+	cursor: pointer;
+	margin-right:10%;		
+	width:120px;			height:35px;
+	line-height:20px;
+}
+
+/*  -- Liste des restaurants -- */
+.list-restaurant{
+	float:left;
+	width: 100%; 		height:auto;
+	padding-bottom:20px;
+	background-color:#dedede;
+}
+.restaurant-item{
+	float:left;
+	margin-left: 20px;
+	margin-top:20px;
+	width:31%;		height:130px;
+	border:solid 1px rgb(180, 180, 180);
+}
+.restaurant-item:hover{
+	border:solid 1px rgb(87, 53, 116);
+}
+.restaurant-image-block
+{
+	float:left;
+	width:30%;			height:100%;
+	border:solid 0px #333;
+}	
+.restaurant-descrip-block{
+	float:left;
+	padding-left:2%;
+	width:67%;			height:100%;
+	border:solid 0px rgb(99, 58, 58);
+	text-align: left;	line-height:20px;
+	font-size:14px;
+}
+
+
+/* --- Bloc de listes des spécialités --- */ 
+.list-specialite-block{
+	float:left;
+	margin-left: 10%;	
+	width:80%;			height:auto;
+	border:solid 0px red;
+	text-align: left ;
+}
+.list-specialite-title
+{
+	float:left;
+	width: 100%; 		height:90px;
+	padding-left: 50px;
+	line-height: 150px;
+	color:#333;			font-size: 18px;
+
+	text-align: left;
+}
+.list-specialite{
+	float:left;
+	width: 100%; 		height:auto;
+	padding-bottom:20px;
+}
+.specialte-item
+{
+	float:left;
+	margin-left: 20px;	margin-top:20px;
+	width:195px;		height:50px;
+	line-height: 50px;	text-align: center;
+	border:solid 1px rgb(95, 95, 95);
+	background-color: #dedede;
+}
+.specialte-item:hover{
+	border:solid 1px rgb(197, 95, 255);
+}
+
+/*
+	--- Restaurant choisi Page ---
+*/
+
+.restaurant-block{
+	float:left;
+	margin-left: 10%;	
+	width:80%;			height:auto;
+	border:solid 0px red;
+	text-align: left ;
+}
+.restaurant-title{
+	float:left;
+	margin-left: 50px;
+	width: 100%; 		height:90px;
+	line-height: 130px;
+	color:#333;			font-size: 18px;
+	border:solid 0px #333;
+	text-align: left;
+}
+
+/* --- Listes des plats --- */
+.menu-list-block{
+	float:left;
+	width: 100%; 		height:auto;
+	padding-bottom:20px;
+	background-color:#dedede;
+}
+.menu-item-block{
+	float:left;
+	margin-top:20px;
+	margin-left: 10%;
+	width:80%;		height:90px;
+	border:solid 0px rgb(94, 94, 94);
+	background-color:rgb(230, 230, 230);
+}
+.menu-image-block{
+	float:left;
+	width:9%;		height:100%;
+	border:solid 1px #333;
+}
+.menu-description-block{
+	float:left;
+	width:70.5%;			height:100%;
+	line-height:30px;	padding-left:20px;
+	border:solid 0px #333;
+}
+.menu-quantite-block
+{
+	float:left;
+	width:10%;		height:100%;
+	line-height:30px;	text-align:center;	
+	border:solid 0px #333;
+}
+.menu-checkbox-block
+{
+	float:left;
+	width:5%;		height:100%;
+	line-height:90px;	text-align:center;
+	border:solid 0px #333;
+}
+.menu-button-block
+{
+	float:left;
+	margin-left: 10%;	margin-top:10px;
+	width:80%; 		height:50px;
+	border:solid 0px #333;
+}
+.menu-button-left
+{
+	float:left;
+	width:49.7%;		height:100%;
+	border:solid 0px #333;
+}
+.menu-button-right
+{
+	float:left;
+	width:49.8%;		height:100%;
+	border:solid 0px #333;
+	text-align:right;	line-height:30px;
+}
+.menu-annuler{
+	cursor:pointer;
+	float:left;
+	width:150px;		height:30px;
+	line-height: 30px;
+	border:solid 1px #333;
+	background-color: #dedede;
+	color:#292929;
+	text-align:center;
+}
+.menu-annuler:hover{
+	background-color: #c0c0c0;
+}
+.menu-commander{
+	cursor:pointer;
+	width:150px;		height:30px;
+	line-height: 30px;
+	border:solid 1px #333;
+	background-color: #69bb5f;
+	color:#ffffff;
+}
+.menu-commander:hover{
+	background-color: #58994f;
+}
+
+.comment_block{
+	width:100%;		height:auto;
+	text-align:left;
+	border:solid 0px #333;
+}
+
+/*
+	--- Panier Page ---
+*/
+
+.panier-block{
+	float:left;
+	margin-left: 10%;	
+	width:80%;			height:auto;
+	border:solid 0px red;
+	text-align: left ;
+}
+.panier-title{
+	float:left;
+	margin-left: 50px;
+	width: 100%; 		height:90px;
+	line-height: 130px;
+	color:#333;			font-size: 18px;
+	border:solid 0px #333;
+	text-align: left;
+}
+
+/* Liste des plats à commander */
+.list-panier-block{
+	float:left;
+	width: 100%; 		height:auto;
+	padding-bottom:10px;
+	background-color:#dedede;
+}
+.panier-item{
+	float: left;
+	margin-top:20px;
+	margin-left: 25%;
+	width:50%;		height:50px;
+	line-height: 50px;
+	border:solid 0px rgb(94, 94, 94);
+	background-color:rgb(230, 230, 230);
+}
+.panier-item-name{
+	float:left;
+	width: 50%;
+	height:100%;
+	padding-left:2%;
+}
+.panier_item-quantite{
+	float:left;
+	width:33%;
+	height:100%;
+	text-align: center;
+}
+.panier-item-price{
+	float:left;
+	width: 13%;
+	height:100%;
+	padding-left:2%;
+	text-align: center;
+}
+.total-block{
+	height:80px;
+	line-height: 25px;
+	background-color:#a8a8a8;
+}
+.total{
+	float:right;
+	width: auto;
+	height:100%;
+	padding-left:2%;
+	border:solid 0px rgb(94, 94, 94);
+} 
+.total-prix{
+	float:right;
+	width: 13%;
+	height:100%;
+	text-align: center;
+	border:solid 0px rgb(94, 94, 94);
+}
+
+.pay-button-block{
+	float:left;
+	width:100%;			height:50px;
+	text-align:center;	line-height:50px;
+}
+
+/*
+	--- Confiramtion Page ---
+*/
+
+.confirmation-block{
+	float:left;
+	margin-left: 10%;	
+	width:80%;			height:auto;
+	border:solid 0px red;
+	text-align: left ;
+}
+
+.confirmation-title{
+	float:left;
+	margin-left: 50px;
+	width: 100%; 		height:90px;
+	line-height: 130px;
+	color:#333;			font-size: 18px;
+	border:solid 0px #333;
+	text-align: left;
+}
+.confirmation-content{
+	float:left;
+	width: 100%;		height:150px;
+	line-height: 50px;
+	text-align: center;
+}
+
+
+/*
+		--- Page Compte---
+*/
+
+.left-sidebar-block{
+	float:left;
+	margin-left:10%;
+	width:40%;			height:auto;
+	border:solid 0px #333;
+}
+.right-sidebar-block{
+	float:left;
+	width:40%;			height:auto;
+	border:solid 0px #333;
+}
+
+/* -- Compte bloc -- */
+.compte-details-block{
+	float: left;
+	margin-left: 5%;
+	margin-top:10%;
+	margin-bottom: 10%;
+	width:90%;
+	height:auto;
+	line-height:27px;
+	text-align:left;
+	border:solid 0px #333;
+}
+.commande-historique-title
+{
+	float:left;
+	margin-left: 5%;margin-top: 3%;
+	width:90%; 		height:25px;
+	line-height: 25px;
+	text-align: left;
+	font-size: 15px;
+	border:solid 0px #333;
+}
+.commande-historique-list{
+	float:left;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	width:90%;		height: 300px;
+	overflow-y: scroll;
+	text-align:left;
+	border:solid 0px #333;
+}
+.commande-historique-item{
+	float:left;
+	width:100%;			height:30px;
+	line-height: 30px;
+	font-size: 14px;
+	border-bottom: dashed 1px #333;
+}
+.commande-historique-item a:hover{
+	text-decoration: underline;
+	font-weight:bold;
+}
+.commande-historique-item .col1, .col2, .col3, .col4{
+	float:left;			height:100%;
+	border:solid 0px #333;
+}
+.commande-historique-item .col1{
+	width:40%;		
+}
+.commande-historique-item .col2, .col3, .col4{
+	width:19.5%;
+	text-align: right;
+}
+
+
+/*
+	-- Feedback Page --
+*/
+.feedback_block{
+	margin-left: auto; margin-right: auto;
+	width:70%;	height: 300px;
+	border:solid 0px #333;
+	border-collapse: collapse;
+	text-align: left;
+}
+.feedback_block td{
+	border:solid 0px #333;
+}

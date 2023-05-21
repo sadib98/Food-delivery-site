@@ -1,0 +1,145 @@
+
+.left-sidebar-block{	
+	float:left;
+	margin-left:10%;
+	width:40%;			height:auto;
+	border:solid 0px #333;
+}
+.right-sidebar-block{
+	float:left;
+	width:40%;			height:auto;
+	border:solid 0px #333;
+}
+
+
+/* -- Home Page --*/
+
+.livreur-statut{
+	float:left;
+	width:92%;			height:100px;
+	line-height: 100px;	text-align: left;
+	padding-left:8%;
+	border:solid 0px #333;
+}
+.commande-wait-block{
+	float:left;
+	margin-top: 2%;		
+	margin-left:3%;
+	margin-bottom: 5%;
+	width:93%;			
+	height: 280px;		
+	border:solid 0px #333;
+}
+.commande-wait-title{
+	float:left;
+	width:100%;			height:30px;
+	line-height:30px;
+	border:solid 1px #333;
+}
+.commande-item-list{
+	float: left;
+	width:100%;
+	height: 250px;		overflow-y: scroll;
+	border:solid 1px #333;
+}
+.commande-item{
+	float:left;
+	width:98%;			height:30px;
+	line-height:30px;	text-align:left;
+	padding-left:2%;
+	border-bottom:solid 1px #333;
+}
+
+.commande-details-block{
+	float:left;
+	margin-left: 10%;
+	margin-top:2%;
+	margin-bottom:2%;
+	width:80%;			height:auto;
+	border:dashed 1px #333;
+}
+.commande-details-title
+{
+	float: left;
+	width:95%;			height:6%;
+	padding-left: 5%;	line-height: 25px;
+	border-bottom:solid 1px #333;
+	text-align:left;	font-size: 13px;
+}
+.commande-details-content
+{
+	float: left;
+	width:100%;			height:auto;
+	padding-top: 10%;	padding-bottom: 10%;
+	border:solid 0px #333;
+	text-align:center;
+}
+.button-commande{
+	float:left;
+	width:100%;		height:25px;
+	line-height: 25px;
+	border:solid 1px #333;
+	background-color:#bfbfbf;
+	color:#333;
+	font-size: 15px;
+}
+.button-commande:hover{
+	background-color:#333;
+	color:#fff;
+}
+
+/*
+	-- Compte Page -- 
+*/
+
+.livreur-infos-block{
+	float: left;
+	margin-top: 5%;
+	margin-bottom:5%;
+	padding:20%;
+	width:60%;			height:130px;
+	line-height: 30px;
+	border:dotted 1px #333;
+	text-align: left;
+}
+.livreur-travail-block{
+	float: left;
+	margin-top: 5%;
+	margin-bottom:5%;
+	width: 100%;		height: 350px;
+	border: solid 0px #333;
+}
+.livreur-travail-title{
+	float: left;
+	width:95%;			height:6%;
+	padding-left: 5%;	line-height: 25px;
+	border-bottom:solid 0px #333;
+	text-align:left;	font-size: 13px;
+}
+.villes-list-block{
+	float:left;
+	margin-left: 5%;	margin-right: 5%;
+	width:90%;			height:150px;
+	border:solid 0px #333;
+}
+.ville-item{
+	float:left;
+	margin:5px;			
+	padding-left: 10px; padding-right: 10px;
+	width:auto;			height:20px;
+	line-height: 20px;
+	border:solid 1px #333;
+	font-size: 15px;
+}
+.modify-ville-block{
+	float:left;
+	margin-left: 5%;	margin-right: 5%;
+	padding-left: 20%;
+	width:70%;			height:50px;
+	line-height: 45px;	text-align:center;
+	font-size: 15px;
+	border:solid 1px #a8a8a8;
+}
+.delete-ville{
+	margin-top: 4%;
+}
